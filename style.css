@@ -1,0 +1,60 @@
+body {
+    height: 100vh;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f6f6f6;;
+    background-color: black;
+}
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+    width: 1138px;
+}
+
+#principal {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center; 
+    justify-content: space-around;
+}
+
+.apresentacao_titulo {
+    font-family: "Krona-one", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36;
+}
+
+.apresentacao_destaque {
+    color: #22d4fd;
+}
+
+.apresentacao_texto {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24;
+    padding-bottom: 40px
+}
+
+.apresentacao_botoes {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24;
+    padding-top: 38px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.butao {
+    background-color: #22d4fd;
+    padding: 4%;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 16px;
+
+}
