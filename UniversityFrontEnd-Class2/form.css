@@ -1,0 +1,103 @@
+/* Reset básico */
+* {
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e0e0e0;
+}
+
+/* Estrutura da tabela geral */
+table {
+  border-collapse: collapse;
+  background: #e0e0e0;
+}
+
+/* Células da tabela com conteúdo */
+.tab_form, .tab_grid {
+  padding: 20px;
+}
+
+/* Estilo neumorfista para os inputs e área de texto */
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 12px;
+  background: #e0e0e0;
+  box-shadow: 6px 6px 12px #bebebe, -6px -6px 12px #ffffff;
+  resize: none;
+  transition: 0.2s ease-in-out;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  box-shadow: inset 4px 4px 8px #bebebe, inset -4px -4px 8px #ffffff;
+}
+
+input#instagram, #whatsapp {
+  width: 10px;
+  margin-right: 5px;
+}
+
+/* Botões com efeito neumorfista */
+.button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  background: #e0e0e0;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 6px 6px 12px #bebebe, -6px -6px 12px #ffffff;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.button:hover {
+  box-shadow: inset 4px 4px 8px #bebebe, inset -4px -4px 8px #ffffff;
+}
+
+/* Rótulos */
+label {
+  font-weight: 600;
+  color: #333;
+}
+
+/* Tabela de visualização (lado direito) */
+.tab_grid table {
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #f0f0f0;
+  box-shadow: 4px 4px 10px #bebebe, -4px -4px 10px #ffffff;
+}
+
+.tab_grid th, .tab_grid td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.tab_grid th {
+  background: #dcdcdc;
+  color: #333;
+}
+
+/* Campos de edição e exclusão */
+.edt_del input {
+  width: 45%;
+  margin: 2px;
+  padding: 6px;
+  border-radius: 8px;
+  background: #e0e0e0;
+  border: none;
+  box-shadow: 3px 3px 6px #bebebe, -3px -3px 6px #ffffff;
+}
